@@ -1,0 +1,154 @@
+{
+  "scenario": "block_stack",
+  "backend": "truth_render",
+  "n_frames": 90,
+  "nominal_lam": 2.0,
+  "levels": [
+    {
+      "lam": 2.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 3.882831802811776,
+        "R2": 2.400594632459134
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 4.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 5.563213281573588,
+        "R2": 3.4303049921239746
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 8.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 9.664704446420018,
+        "R2": 6.421095515064362
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 16.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 15.737155613819217,
+        "R2": 13.456153435524467
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    }
+  ],
+  "consistency": {
+    "population_vi50": Infinity,
+    "rescored_vi50": Infinity,
+    "population_n": 50,
+    "rescored_n": 50
+  }
+}

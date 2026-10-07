@@ -1,0 +1,48 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+MUJOCO_LOG.TXT
+.DS_Store
+
+# internal, not part of the benchmark
+midcentury-research-post/
+VITALS_END_TO_END.md
+# internal design log, never published
+AGENT.md
+# internal documents, never published
+VITALS_proposal.pdf
+
+# results/: only what the leaderboard is built from is tracked (results/README.md explains)
+results/*
+!results/README.md
+!results/leaderboard.json
+!results/leaderboard_stability.json
+!results/phi_refs_soft_ramp.npz
+!results/l0_demo_*.json
+!results/lambda_rescore_*.json
+!results/videos/
+results/videos/*
+!results/videos/*_grid.mp4
+# superseded model versions, non-leaderboard scenes, debug and smoke artefacts
+results/l0_demo_*_cosmos.json
+results/l0_demo_*_cosmos14b.json
+results/l0_demo_*_cosmos720p.json
+results/l0_demo_*_wan.json
+results/l0_demo_*_mujoco.json
+results/lambda_rescore_*_cosmos.json
+results/lambda_rescore_*_wan.json
+results/*_domA_*
+results/*_domB_*
+results/*soft_drop_*
+results/*projectile_*
+results/*occlusion_corridor_distractor_*
+results/*occlusion_corridor_moving_*
+results/videos/*_domA_*
+results/videos/*_domB_*
+results/videos/*_cosmos_grid.mp4
+results/videos/*_wan_grid.mp4
+results/videos/smoke_*
+results/videos/*_longhorizon_grid.mp4
+results/videos/*_cosmos14b_grid.mp4
+results/videos/*_cosmos720p_grid.mp4

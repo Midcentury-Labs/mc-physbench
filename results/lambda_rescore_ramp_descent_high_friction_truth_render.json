@@ -1,0 +1,192 @@
+{
+  "scenario": "ramp_descent_high_friction",
+  "backend": "truth_render",
+  "n_frames": 90,
+  "nominal_lam": 0.25,
+  "levels": [
+    {
+      "lam": 0.25,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 2.896,
+      "S_at": {
+        "1.5": 0.96,
+        "2.0": 0.94,
+        "3.0": 0.94
+      },
+      "censoring_rate": 0.94,
+      "termination_profile": {
+        "R3": 1.0
+      },
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 3.9179453210077813
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0,
+          1.0,
+          1.0,
+          1.8
+        ],
+        "S": [
+          1.0,
+          0.98,
+          0.96,
+          0.94
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 2.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 3.8405734436474384
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 4.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 9.849436103493506
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 8.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 5.034734357752977
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 16.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 21.073379314256822
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    }
+  ],
+  "consistency": {
+    "population_vi50": Infinity,
+    "rescored_vi50": Infinity,
+    "population_n": 50,
+    "rescored_n": 50
+  }
+}

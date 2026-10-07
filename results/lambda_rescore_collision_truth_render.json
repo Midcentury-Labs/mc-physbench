@@ -1,0 +1,154 @@
+{
+  "scenario": "collision",
+  "backend": "truth_render",
+  "n_frames": 90,
+  "nominal_lam": 2.0,
+  "levels": [
+    {
+      "lam": 2.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 2.972,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 0.98,
+        "3.0": 0.98
+      },
+      "censoring_rate": 0.98,
+      "termination_profile": {
+        "R3": 1.0
+      },
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 3.0040726950979324
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0,
+          1.6
+        ],
+        "S": [
+          1.0,
+          0.98
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 4.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 3.0607923341786756
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 8.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 2.555297245604922
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    },
+    {
+      "lam": 16.0,
+      "n": 50,
+      "vi50": Infinity,
+      "vi50_ci95": [
+        NaN,
+        NaN
+      ],
+      "rmvt": 3.0,
+      "S_at": {
+        "1.5": 1.0,
+        "2.0": 1.0,
+        "3.0": 1.0
+      },
+      "censoring_rate": 1.0,
+      "termination_profile": {},
+      "thresholds_median": {
+        "R1": 0.0,
+        "R3": 2.9664203838782353
+      },
+      "kaplan_meier": {
+        "t": [
+          0.0
+        ],
+        "S": [
+          1.0
+        ]
+      },
+      "long_horizon": {
+        "vi50": Infinity,
+        "censoring_rate": 1.0,
+        "rmvt": 3.0
+      }
+    }
+  ],
+  "consistency": {
+    "population_vi50": Infinity,
+    "rescored_vi50": Infinity,
+    "population_n": 50,
+    "rescored_n": 50
+  }
+}
