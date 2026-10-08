@@ -130,7 +130,7 @@ AGENT.md           the design log: every milestone, decision and finding, in the
 
 ```bibtex
 @misc{shah2026mcphysbench,
-  title        = {MC-PhysBench: Measuring How Long Video World Models Stay Physically Valid},
+  title        = {MC-PhysBench: A Time-to-Failure Physics Benchmark for World Models},
   author       = {Shah, Shilpi},
   year         = {2026},
   publisher    = {Midcentury},
