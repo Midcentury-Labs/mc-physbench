@@ -6305,6 +6305,981 @@
      "n": 50
     }
    }
+  },
+  "billiards|jesse_1_3_single": {
+   "scenario": "billiards",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792609722,
+    "total_bytes": 393970
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.555999999999999,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7999999999999998,
+      "2.0": 0.7999999999999998,
+      "3.0": 0.7799999999999998
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 2.671333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8399999999999999,
+      "2.0": 0.8399999999999999,
+      "3.0": 0.8199999999999998
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "billiards|jesse_1_3_swarm_100k": {
+   "scenario": "billiards",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792608946,
+    "total_bytes": 392215
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.889333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.96,
+      "2.0": 0.96,
+      "3.0": 0.96
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "block_stack|jesse_1_3_single": {
+   "scenario": "block_stack",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792610911,
+    "total_bytes": 264415
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.331333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7999999999999998,
+      "2.0": 0.5799999999999997,
+      "3.0": 0.5799999999999997
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 2.9299999999999997,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 0.96,
+      "3.0": 0.94
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "block_stack|jesse_1_3_swarm_100k": {
+   "scenario": "block_stack",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792610334,
+    "total_bytes": 264271
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.575333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.98,
+      "2.0": 0.6799999999999998,
+      "3.0": 0.6799999999999998
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "collision|jesse_1_3_single": {
+   "scenario": "collision",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792608160,
+    "total_bytes": 179575
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 1.5939999999999994,
+     "vi50": 1.3,
+     "S_at": {
+      "1.5": 0.3199999999999999,
+      "2.0": 0.2799999999999999,
+      "3.0": 0.2799999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 2.892,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.94,
+      "2.0": 0.94,
+      "3.0": 0.94
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "collision|jesse_1_3_swarm_100k": {
+   "scenario": "collision",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792607771,
+    "total_bytes": 178797
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.6606666666666667,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8799999999999999,
+      "2.0": 0.8799999999999999,
+      "3.0": 0.8799999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "occlusion_corridor_interpenetration|jesse_1_3_single": {
+   "scenario": "occlusion_corridor_interpenetration",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 6.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792618887,
+    "total_bytes": 271835
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 3.0,
+     "rmvt": 2.4486666666666665,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7799999999999998,
+      "2.0": 0.7799999999999998,
+      "3.0": 0.6999999999999998
+     },
+     "termination_profile": {
+      "R1": 0.26666666666666666,
+      "R3": 0.7333333333333333
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 6.0,
+     "rmvt": 2.690666666666666,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8799999999999999,
+      "2.0": 0.8799999999999999,
+      "3.0": 0.7999999999999998
+     },
+     "termination_profile": {
+      "R1": 0.4,
+      "R3": 0.6
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 12.0,
+     "rmvt": 2.9306666666666668,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 0.9199999999999999
+     },
+     "termination_profile": {
+      "R1": 1.0
+     },
+     "n": 50
+    }
+   }
+  },
+  "occlusion_corridor_interpenetration|jesse_1_3_swarm_100k": {
+   "scenario": "occlusion_corridor_interpenetration",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 6.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792618494,
+    "total_bytes": 269166
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 3.0,
+     "rmvt": 2.7306666666666666,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.94,
+      "2.0": 0.94,
+      "3.0": 0.7799999999999998
+     },
+     "termination_profile": {
+      "R1": 0.7272727272727273,
+      "R3": 0.2727272727272727
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 6.0,
+     "rmvt": 2.8926666666666665,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 0.8399999999999999
+     },
+     "termination_profile": {
+      "R1": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 12.0,
+     "rmvt": 2.8926666666666665,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 0.8399999999999999
+     },
+     "termination_profile": {
+      "R1": 1.0
+     },
+     "n": 50
+    }
+   }
+  },
+  "occlusion_corridor|jesse_1_3_single": {
+   "scenario": "occlusion_corridor",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 6.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792617904,
+    "total_bytes": 191224
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 3.0,
+     "rmvt": 2.095333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.6799999999999998,
+      "2.0": 0.6799999999999998,
+      "3.0": 0.6199999999999998
+     },
+     "termination_profile": {
+      "R1": 0.10526315789473684,
+      "R3": 0.8947368421052632
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 6.0,
+     "rmvt": 2.5986666666666665,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8199999999999998,
+      "2.0": 0.8199999999999998,
+      "3.0": 0.7799999999999998
+     },
+     "termination_profile": {
+      "R1": 0.18181818181818182,
+      "R3": 0.8181818181818182
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 12.0,
+     "rmvt": 2.968,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 0.96
+     },
+     "termination_profile": {
+      "R1": 1.0
+     },
+     "n": 50
+    }
+   }
+  },
+  "occlusion_corridor|jesse_1_3_swarm_100k": {
+   "scenario": "occlusion_corridor",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 6.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792617633,
+    "total_bytes": 188594
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 3.0,
+     "rmvt": 2.1746666666666656,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7599999999999998,
+      "2.0": 0.7599999999999998,
+      "3.0": 0.5799999999999997
+     },
+     "termination_profile": {
+      "R1": 0.38095238095238093,
+      "R3": 0.6190476190476191
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 6.0,
+     "rmvt": 2.832,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.98,
+      "2.0": 0.98,
+      "3.0": 0.8199999999999998
+     },
+     "termination_profile": {
+      "R1": 0.8888888888888888,
+      "R3": 0.1111111111111111
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 12.0,
+     "rmvt": 2.8813333333333335,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 0.8399999999999999
+     },
+     "termination_profile": {
+      "R1": 1.0
+     },
+     "n": 50
+    }
+   }
+  },
+  "occlusion_reemergence|jesse_1_3_single": {
+   "scenario": "occlusion_reemergence",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792617255,
+    "total_bytes": 181764
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.154666666666666,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7399999999999998,
+      "2.0": 0.7399999999999998,
+      "3.0": 0.5599999999999997
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 2.866,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.98,
+      "2.0": 0.98,
+      "3.0": 0.8399999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "occlusion_reemergence|jesse_1_3_swarm_100k": {
+   "scenario": "occlusion_reemergence",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 2.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792616680,
+    "total_bytes": 181464
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 1.0,
+     "rmvt": 2.237333333333333,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.7399999999999998,
+      "2.0": 0.7399999999999998,
+      "3.0": 0.6799999999999998
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 2.0,
+     "rmvt": 2.948,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.98,
+      "2.0": 0.98,
+      "3.0": 0.98
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 4.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "ramp_descent_high_friction|jesse_1_3_single": {
+   "scenario": "ramp_descent_high_friction",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 0.25,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792616041,
+    "total_bytes": 215085
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.125,
+     "rmvt": 2.3806666666666665,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.6999999999999998,
+      "2.0": 0.6999999999999998,
+      "3.0": 0.6999999999999998
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 0.25,
+     "rmvt": 2.7199999999999998,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8599999999999999,
+      "2.0": 0.8599999999999999,
+      "3.0": 0.8599999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 0.5,
+     "rmvt": 2.7199999999999998,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.8599999999999999,
+      "2.0": 0.8599999999999999,
+      "3.0": 0.8599999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    }
+   }
+  },
+  "ramp_descent_high_friction|jesse_1_3_swarm_100k": {
+   "scenario": "ramp_descent_high_friction",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 0.25,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792606991,
+    "total_bytes": 216644
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.125,
+     "rmvt": 1.9099999999999997,
+     "vi50": 1.2333333333333334,
+     "S_at": {
+      "1.5": 0.45999999999999985,
+      "2.0": 0.45999999999999985,
+      "3.0": 0.45999999999999985
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 0.25,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 0.5,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "ramp_descent|jesse_1_3_single": {
+   "scenario": "ramp_descent",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 1.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792606597,
+    "total_bytes": 209274
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.5,
+     "rmvt": 1.7953333333333332,
+     "vi50": 1.0,
+     "S_at": {
+      "1.5": 0.3999999999999999,
+      "2.0": 0.3999999999999999,
+      "3.0": 0.3999999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 1.0,
+     "rmvt": 2.964,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.98,
+      "2.0": 0.98,
+      "3.0": 0.98
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "ramp_descent|jesse_1_3_swarm_100k": {
+   "scenario": "ramp_descent",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 1.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792606235,
+    "total_bytes": 209201
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.5,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "1x": {
+     "lam": 1.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "soft_ramp|jesse_1_3_single": {
+   "scenario": "soft_ramp",
+   "model": "jesse_1_3_single",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 1.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792619509,
+    "total_bytes": 225886
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.5,
+     "rmvt": 2.0513333333333326,
+     "vi50": 2.3666666666666667,
+     "S_at": {
+      "1.5": 0.5999999999999998,
+      "2.0": 0.5199999999999998,
+      "3.0": 0.4399999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 1.0,
+     "rmvt": 2.904,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 0.9199999999999999,
+      "3.0": 0.9199999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "2x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
+  },
+  "soft_ramp|jesse_1_3_swarm_100k": {
+   "scenario": "soft_ramp",
+   "model": "jesse_1_3_swarm_100k",
+   "stamp": {
+    "n_cached": 50,
+    "lam": 1.0,
+    "seeds_min": 1,
+    "seeds_max": 50,
+    "newest_mtime": 1792619250,
+    "total_bytes": 225707
+   },
+   "levels": {
+    "0.5x": {
+     "lam": 0.5,
+     "rmvt": 2.856,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 0.96,
+      "2.0": 0.96,
+      "3.0": 0.8599999999999999
+     },
+     "termination_profile": {
+      "R3": 1.0
+     },
+     "n": 50
+    },
+    "1x": {
+     "lam": 1.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    },
+    "2x": {
+     "lam": 2.0,
+     "rmvt": 3.0,
+     "vi50": Infinity,
+     "S_at": {
+      "1.5": 1.0,
+      "2.0": 1.0,
+      "3.0": 1.0
+     },
+     "termination_profile": {},
+     "n": 50
+    }
+   }
   }
  },
  "scenes": {
@@ -6312,6 +7287,8 @@
    "models": [
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6323,14 +7300,16 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.8545454545454546,
-    "1x->2x": 0.8454545454545455,
-    "0.5x->2x": 0.5818181818181819
+    "0.5x->1x": 0.9118457300275482,
+    "1x->2x": 0.9018058270034552,
+    "0.5x->2x": 0.741361845512043
    },
    "rmvt": {
     "0.5x": {
      "cosmos3nano": 1.0846666666666667,
      "cosmos3super": 1.015333333333333,
+     "jesse_1_3_single": 2.555999999999999,
+     "jesse_1_3_swarm_100k": 2.889333333333333,
      "runway_gemini_omni": 1.0633333333333332,
      "runway_gen4.5": 1.246,
      "runway_grok_imagine_1.5": 1.141333333333333,
@@ -6344,6 +7323,8 @@
     "1x": {
      "cosmos3nano": 1.1899999999999997,
      "cosmos3super": 1.1526666666666667,
+     "jesse_1_3_single": 2.671333333333333,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.3159999999999998,
      "runway_gen4.5": 1.8313333333333333,
      "runway_grok_imagine_1.5": 1.5773333333333333,
@@ -6357,6 +7338,8 @@
     "2x": {
      "cosmos3nano": 1.4479999999999997,
      "cosmos3super": 1.5673333333333332,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 2.1366666666666663,
      "runway_gen4.5": 2.681333333333333,
      "runway_grok_imagine_1.5": 2.745333333333333,
@@ -6373,6 +7356,8 @@
    "models": [
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6384,14 +7369,16 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.9636363636363637,
-    "1x->2x": 0.9818181818181818,
-    "0.5x->2x": 0.9363636363636365
+    "0.5x->1x": 0.9766171549882948,
+    "1x->2x": 0.9847940932921168,
+    "0.5x->2x": 0.9558156927900057
    },
    "rmvt": {
     "0.5x": {
      "cosmos3nano": 1.8466666666666667,
      "cosmos3super": 1.2859999999999998,
+     "jesse_1_3_single": 2.331333333333333,
+     "jesse_1_3_swarm_100k": 2.575333333333333,
      "runway_gemini_omni": 1.0533333333333335,
      "runway_gen4.5": 1.1973333333333334,
      "runway_grok_imagine_1.5": 1.4093333333333333,
@@ -6405,6 +7392,8 @@
     "1x": {
      "cosmos3nano": 1.894,
      "cosmos3super": 2.24,
+     "jesse_1_3_single": 2.9299999999999997,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.0619999999999998,
      "runway_gen4.5": 1.4433333333333331,
      "runway_grok_imagine_1.5": 1.502,
@@ -6418,6 +7407,8 @@
     "2x": {
      "cosmos3nano": 2.2473333333333336,
      "cosmos3super": 2.9046666666666665,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.112,
      "runway_gen4.5": 2.078,
      "runway_grok_imagine_1.5": 1.6219999999999999,
@@ -6434,6 +7425,8 @@
    "models": [
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6445,14 +7438,16 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.8909090909090911,
-    "1x->2x": 0.9272727272727275,
-    "0.5x->2x": 0.8909090909090911
+    "0.5x->1x": 0.9340659340659341,
+    "1x->2x": 0.9502907465889073,
+    "0.5x->2x": 0.9281909617845142
    },
    "rmvt": {
     "0.5x": {
      "cosmos3nano": 0.9786666666666665,
      "cosmos3super": 0.9813333333333333,
+     "jesse_1_3_single": 1.5939999999999994,
+     "jesse_1_3_swarm_100k": 2.6606666666666667,
      "runway_gemini_omni": 1.0053333333333332,
      "runway_gen4.5": 0.9893333333333332,
      "runway_grok_imagine_1.5": 1.062,
@@ -6466,6 +7461,8 @@
     "1x": {
      "cosmos3nano": 1.1933333333333331,
      "cosmos3super": 1.1993333333333334,
+     "jesse_1_3_single": 2.892,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.2213333333333336,
      "runway_gen4.5": 1.168,
      "runway_grok_imagine_1.5": 1.2746666666666666,
@@ -6479,6 +7476,8 @@
     "2x": {
      "cosmos3nano": 1.3253333333333333,
      "cosmos3super": 1.3019999999999998,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.3739999999999999,
      "runway_gen4.5": 1.2526666666666664,
      "runway_grok_imagine_1.5": 1.5446666666666666,
@@ -6496,6 +7495,8 @@
     "cogvideox15",
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6507,15 +7508,17 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.8881118881118882,
-    "1x->2x": 0.9720279720279721,
-    "0.5x->2x": 0.8111888111888113
+    "0.5x->1x": 0.9252747252747253,
+    "1x->2x": 0.9692307692307693,
+    "0.5x->2x": 0.8769230769230769
    },
    "rmvt": {
     "0.5x": {
      "cogvideox15": 0.8366666666666664,
      "cosmos3nano": 0.833333333333333,
      "cosmos3super": 0.9453333333333331,
+     "jesse_1_3_single": 2.095333333333333,
+     "jesse_1_3_swarm_100k": 2.1746666666666656,
      "runway_gemini_omni": 0.8666666666666666,
      "runway_gen4.5": 1.4606666666666663,
      "runway_grok_imagine_1.5": 1.2886666666666664,
@@ -6530,6 +7533,8 @@
      "cogvideox15": 1.1653333333333329,
      "cosmos3nano": 1.1159999999999999,
      "cosmos3super": 1.7426666666666664,
+     "jesse_1_3_single": 2.5986666666666665,
+     "jesse_1_3_swarm_100k": 2.832,
      "runway_gemini_omni": 1.3673333333333328,
      "runway_gen4.5": 2.212666666666667,
      "runway_grok_imagine_1.5": 1.8046666666666664,
@@ -6544,6 +7549,8 @@
      "cogvideox15": 1.3166666666666667,
      "cosmos3nano": 1.1473333333333335,
      "cosmos3super": 1.7999999999999996,
+     "jesse_1_3_single": 2.968,
+     "jesse_1_3_swarm_100k": 2.8813333333333335,
      "runway_gemini_omni": 1.7339999999999995,
      "runway_gen4.5": 2.256,
      "runway_grok_imagine_1.5": 1.8953333333333333,
@@ -6560,6 +7567,8 @@
    "models": [
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6571,14 +7580,16 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.7471545580282566,
-    "1x->2x": 0.990909090909091,
-    "0.5x->2x": 0.7243754556493464
+    "0.5x->1x": 0.7977999294270577,
+    "1x->2x": 0.9780219780219779,
+    "0.5x->2x": 0.7675385527936176
    },
    "rmvt": {
     "0.5x": {
      "cosmos3nano": 1.0779999999999998,
      "cosmos3super": 1.312,
+     "jesse_1_3_single": 2.4486666666666665,
+     "jesse_1_3_swarm_100k": 2.7306666666666666,
      "runway_gemini_omni": 1.2073333333333331,
      "runway_gen4.5": 1.6813333333333331,
      "runway_grok_imagine_1.5": 1.3313333333333333,
@@ -6592,6 +7603,8 @@
     "1x": {
      "cosmos3nano": 1.2406666666666668,
      "cosmos3super": 1.5719999999999996,
+     "jesse_1_3_single": 2.690666666666666,
+     "jesse_1_3_swarm_100k": 2.8926666666666665,
      "runway_gemini_omni": 1.6486666666666665,
      "runway_gen4.5": 1.9966666666666668,
      "runway_grok_imagine_1.5": 1.4293333333333333,
@@ -6605,6 +7618,8 @@
     "2x": {
      "cosmos3nano": 1.2880000000000003,
      "cosmos3super": 1.647333333333333,
+     "jesse_1_3_single": 2.9306666666666668,
+     "jesse_1_3_swarm_100k": 2.8926666666666665,
      "runway_gemini_omni": 1.873333333333333,
      "runway_gen4.5": 2.097333333333333,
      "runway_grok_imagine_1.5": 1.554,
@@ -6624,6 +7639,8 @@
     "cosmos3nano_v2v",
     "cosmos3super",
     "cosmos3super_v2v",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6635,9 +7652,9 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.8153846153846154,
-    "1x->2x": 0.8065934065934066,
-    "0.5x->2x": 0.7406593406593407
+    "0.5x->1x": 0.8764705882352942,
+    "1x->2x": 0.8609273853939431,
+    "0.5x->2x": 0.8167772630660486
    },
    "rmvt": {
     "0.5x": {
@@ -6646,6 +7663,8 @@
      "cosmos3nano_v2v": 0.8506666666666665,
      "cosmos3super": 1.021666666666667,
      "cosmos3super_v2v": 1.1033333333333328,
+     "jesse_1_3_single": 2.154666666666666,
+     "jesse_1_3_swarm_100k": 2.237333333333333,
      "runway_gemini_omni": 0.8166666666666664,
      "runway_gen4.5": 0.9053333333333331,
      "runway_grok_imagine_1.5": 0.8266666666666664,
@@ -6662,6 +7681,8 @@
      "cosmos3nano_v2v": 1.1833333333333333,
      "cosmos3super": 1.3341666666666665,
      "cosmos3super_v2v": 1.4446666666666665,
+     "jesse_1_3_single": 2.866,
+     "jesse_1_3_swarm_100k": 2.948,
      "runway_gemini_omni": 1.0479999999999998,
      "runway_gen4.5": 1.2273333333333334,
      "runway_grok_imagine_1.5": 1.1826666666666668,
@@ -6678,6 +7699,8 @@
      "cosmos3nano_v2v": 1.2393333333333332,
      "cosmos3super": 2.669583333333334,
      "cosmos3super_v2v": 1.468,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.1473333333333333,
      "runway_gen4.5": 1.9786666666666664,
      "runway_grok_imagine_1.5": 1.408,
@@ -6753,6 +7776,8 @@
     "cogvideox15",
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6764,15 +7789,17 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.9300699300699302,
-    "1x->2x": 0.8461538461538463,
-    "0.5x->2x": 0.7062937062937064
+    "0.5x->1x": 0.9548960673768102,
+    "1x->2x": 0.8994524557213396,
+    "0.5x->2x": 0.8101624213983737
    },
    "rmvt": {
     "0.5x": {
      "cogvideox15": 1.046,
      "cosmos3nano": 1.017,
      "cosmos3super": 1.0383333333333333,
+     "jesse_1_3_single": 1.7953333333333332,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 0.9986666666666667,
      "runway_gen4.5": 1.2053333333333334,
      "runway_grok_imagine_1.5": 1.1999999999999997,
@@ -6787,6 +7814,8 @@
      "cogvideox15": 1.1833333333333331,
      "cosmos3nano": 1.1249999999999998,
      "cosmos3super": 1.2493333333333332,
+     "jesse_1_3_single": 2.964,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.0813333333333333,
      "runway_gen4.5": 1.4979999999999998,
      "runway_grok_imagine_1.5": 1.54,
@@ -6801,6 +7830,8 @@
      "cogvideox15": 1.4053333333333333,
      "cosmos3nano": 1.4249999999999998,
      "cosmos3super": 1.8803333333333327,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.274,
      "runway_gen4.5": 1.876,
      "runway_grok_imagine_1.5": 1.8206666666666664,
@@ -6818,6 +7849,8 @@
     "cogvideox15",
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6829,15 +7862,17 @@
     "wan22"
    ],
    "rho": {
-    "0.5x->1x": 0.9720279720279721,
-    "1x->2x": 1.0,
-    "0.5x->2x": 0.9720279720279721
+    "0.5x->1x": 0.9648351648351648,
+    "1x->2x": 0.9989004944448661,
+    "0.5x->2x": 0.968097395497227
    },
    "rmvt": {
     "0.5x": {
      "cogvideox15": 1.0766666666666667,
      "cosmos3nano": 0.9713333333333333,
      "cosmos3super": 0.9993333333333333,
+     "jesse_1_3_single": 2.3806666666666665,
+     "jesse_1_3_swarm_100k": 1.9099999999999997,
      "runway_gemini_omni": 1.0546666666666666,
      "runway_gen4.5": 0.9753333333333333,
      "runway_grok_imagine_1.5": 0.9973333333333333,
@@ -6852,6 +7887,8 @@
      "cogvideox15": 1.1806666666666665,
      "cosmos3nano": 1.0466666666666666,
      "cosmos3super": 1.0593333333333332,
+     "jesse_1_3_single": 2.7199999999999998,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.123333333333333,
      "runway_gen4.5": 1.0353333333333332,
      "runway_grok_imagine_1.5": 1.0653333333333332,
@@ -6866,6 +7903,8 @@
      "cogvideox15": 1.2093333333333334,
      "cosmos3nano": 1.062,
      "cosmos3super": 1.07,
+     "jesse_1_3_single": 2.7199999999999998,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.1513333333333333,
      "runway_gen4.5": 1.0533333333333332,
      "runway_grok_imagine_1.5": 1.0853333333333333,
@@ -6882,6 +7921,8 @@
    "models": [
     "cosmos3nano",
     "cosmos3super",
+    "jesse_1_3_single",
+    "jesse_1_3_swarm_100k",
     "runway_gemini_omni",
     "runway_gen4.5",
     "runway_grok_imagine_1.5",
@@ -6892,14 +7933,16 @@
     "truth_render"
    ],
    "rho": {
-    "0.5x->1x": 0.8303030303030302,
-    "1x->2x": 0.9636363636363635,
-    "0.5x->2x": 0.7575757575757575
+    "0.5x->1x": 0.9001765118147749,
+    "1x->2x": 0.9735586008988358,
+    "0.5x->2x": 0.8521338063968384
    },
    "rmvt": {
     "0.5x": {
      "cosmos3nano": 1.074,
      "cosmos3super": 1.113333333333333,
+     "jesse_1_3_single": 2.0513333333333326,
+     "jesse_1_3_swarm_100k": 2.856,
      "runway_gemini_omni": 0.978,
      "runway_gen4.5": 1.4839999999999998,
      "runway_grok_imagine_1.5": 1.0459999999999998,
@@ -6912,6 +7955,8 @@
     "1x": {
      "cosmos3nano": 1.6179999999999999,
      "cosmos3super": 1.184,
+     "jesse_1_3_single": 2.904,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.0126666666666668,
      "runway_gen4.5": 1.752,
      "runway_grok_imagine_1.5": 1.1059999999999999,
@@ -6924,6 +7969,8 @@
     "2x": {
      "cosmos3nano": 1.6179999999999999,
      "cosmos3super": 1.31,
+     "jesse_1_3_single": 3.0,
+     "jesse_1_3_swarm_100k": 3.0,
      "runway_gemini_omni": 1.0386666666666666,
      "runway_gen4.5": 2.014,
      "runway_grok_imagine_1.5": 1.1466666666666667,

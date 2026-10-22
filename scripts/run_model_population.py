@@ -123,6 +123,10 @@ def make_generate_fn(model_name, scenario):
     # model id (mcphysbench/adapters/runway.py's own docstring) -- the id comes
     # from the registry entry, so adding another Runway-gateway model is
     # a registry line only; this branch already covers it.
+    if MODEL_REGISTRY.get(model_name, {}).get("provider") == "solidsf":
+        from mcphysbench.adapters.jesse_v13 import make_jesse_generate_fn
+        meta = MODEL_REGISTRY[model_name]
+        return make_jesse_generate_fn(scenario, model=meta["model_id"])
     if MODEL_REGISTRY.get(model_name, {}).get("provider") == "openai":
         from mcphysbench.adapters.openai_sora import make_sora_generate_fn
         meta = MODEL_REGISTRY[model_name]
@@ -243,7 +247,9 @@ EPISODE_TIMEOUT_S_DEFAULT = {
                              # kandinsky_wm (2026-10-05): MEASURED ~8 min on the first call (incl. download); server 1800s.
                              "kandinsky_wm": 1860,
                              # sora2_pro (2026-10-05): UNMEASURED; the adapter's own poll ceiling is 1200s.
-                             "sora2_pro": 1260}
+                             "sora2_pro": 1260,
+                             "jesse_1_3_single": 600,
+                             "jesse_1_3_swarm_100k": 600}
 
 
 def resolve_episode_timeout_s(model, explicit):
@@ -468,7 +474,8 @@ def main():
           f"(floor {R5_MIN_PX} px)")
     r5_diag_by_seed = {}
     generate_fn = None if args.model == "truth_render" else make_generate_fn(args.model, args.scenario)
-    phi_fn = make_modal_phi_fn(args.scenario)
+    import os as _os
+    phi_fn = None if _os.environ.get("MCPB_PHI_BACKEND") == "local" else make_modal_phi_fn(args.scenario)
 
     def make_truth_render_fn(full_traj):
         """Per-episode 'generator' for --model truth_render: the true
@@ -509,8 +516,10 @@ def main():
         # worker choice already made for the Cosmos-only version of this
         # script. generate_fn/phi_fn themselves are just closures making
         # network calls -- safe to share.
+        import dataclasses as _dc
         rollout = make_backend("mujoco", scene=spec.scene)
-        full = rollout(spec, seed=seed)
+        ep_spec = spec if (args.model == "truth_render" or seed in video_seeds) else _dc.replace(spec, horizon_s=args.prefix_frames / spec.fps)
+        full = rollout(ep_spec, seed=seed)
         gen = make_truth_render_fn(full) if args.model == "truth_render" else generate_fn
         model = VideoWorldModel(scenario_name=args.scenario, scene=spec.scene, generate_fn=gen,
                                 phi_fn=phi_fn, fps=spec.fps, height=240, width=320,

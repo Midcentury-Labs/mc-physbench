@@ -198,6 +198,17 @@ MODEL_REGISTRY = {
     "sora2_pro":               dict(license="openai-api-terms", restricted=False, access="api",
                                     provider="openai", model_id="sora-2-pro", size="1280x720",
                                     supports_seed=False, seed_reproducible=False),
+    # solidSF Jesse v1.3 (2026-10) -- API-access world models via the solidSF
+    # developer API (`https://jesse.solidsf.com/v1/world/rollout`, authenticated
+    # with SOLIDSF_API_KEY; see mcphysbench/adapters/jesse_v13.py). Single-image
+    # conditioned (`conditioning="image"`, `prefix_frames[-1]` lossless PNG data
+    # URI + frozen `SCENARIO_PROMPTS[scenario_name]`).
+    # `jesse_1_3_single`: single-agent inverse perception + forward physics (`jesse-1.3-single`).
+    # `jesse_1_3_swarm_100k`: 100,000-particle Bayesian physical hypothesis swarm (`jesse-1.3-swarm-100k`).
+    "jesse_1_3_single":        dict(license="solidsf-api-terms", restricted=False, access="api",
+                                    provider="solidsf", model_id="jesse-1.3-single", conditioning="image"),
+    "jesse_1_3_swarm_100k":    dict(license="solidsf-api-terms", restricted=False, access="api",
+                                    provider="solidsf", model_id="jesse-1.3-swarm-100k", conditioning="image"),
 }
 
 
